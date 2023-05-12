@@ -1,0 +1,90 @@
+p{
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+  background-color: darkslategray;
+}
+.products img{
+    width: 1.5cm;
+    height: auto;
+    margin-left: 1cm;
+    margin-top: 0.5cm;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 1cm;
+    position: relative;
+    background-color: darkslategray;
+    margin-top: 5 rem;
+}
+.frame{
+    margin-left: 5cm;
+    margin-right: 5cm;
+    display: flex;
+    border-radius: 15px;
+    background-color:gold;
+    height: 5cm;
+    justify-content: space-between;
+}
+.frame div{
+    text-align: center;
+    
+}
+.count{
+    margin-bottom: 2cm;
+}
+.disp{
+    display: flex;
+    gap: 0.2cm;
+}
+
+[id='toggle-heart'] {
+    position: absolute;
+    left: -100vw;
+  }
+  [for='toggle-heart'] {
+    color: #aab8c2;
+  }
+  
+  [id='toggle-heart']:checked + label {
+    color:aqua;
+  }
+  [for='toggle-heart'] {
+    font-size: 2em;
+    cursor: pointer;
+  }
+  @keyframes heart { 0%, 17.5% { font-size: 0; } }
+
+[id='toggle-heart']:checked + label {
+  will-change: font-size;
+  animation: heart 1s cubic-bezier(.17, .89, .32, 1.49);
+}
+
+
+button{
+    width: 1cm;
+    height:1cm;
+    border-width:0 cm;
+    border-radius: 50px;
+    background-color:gold;
+    border-color: gold;
+    font-size: 21px;
+}
+header{
+  display:flex ;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 2cm;
+  background-color: dimgrey;
+}
+.countbuttons{
+  display: flex;
+  gap: 0.4cm;
+  justify-content: center;
+}
+
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/47abdf5a07.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <header>
+            <p>Total Cart:</p>
+            <p id="totalprice">0</p>
+        </header>
+        <div class="products">
+            <div class="frame" id="pepsi">
+                <div><img src="res\pepsi.png" alt="pepsi">
+                </div>
+                <p>Pepsi can</p>
+                <div class="count">
+                    <p>Price: 10 EGP</p>
+                    <div class="countbuttons">
+                        <button type="submit" id="pdec">-</button>
+                        <p id="pc" >0</p>
+                        <button type="submit" id="pinc">+</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="disp">
+                    <p>Total:</p>
+                    <p id="pepsiprice">0</p>
+                    <p>EGP</p>
+                    </div>
+                    <div><input id="toggle-heart" type="checkbox" />
+                    <label for="toggle-heart" >❤</label></div>
+                </div>
+                <p></p>
+            </div>
+            <div class="frame" id="redbull">
+                <div><img src="res\redbull-removebg-preview.png" alt="redbull">
+                </div>
+                <p>Redbull can</p>
+                <div class="count">
+                    <p>Price: 35 EGP</p>
+                <div class="countbuttons">
+                    <button type="submit" id="rdec">-</button>
+                    <p id="rc" >0</p>
+                    <button type="submit" id="rinc">+</button>
+                </div>
+                </div>
+                <div>
+                    <div class="disp">
+                        <p>Total:</p>
+                        <p id="redbullprice">0</p>
+                        <p>EGP</p>
+                    </div>
+                </div>
+                <p></p>
+            </div>
+            <div class="frame" id="amstell">
+                <div><img src="res\Amstell-removebg-preview.png" alt="Amstell">
+                </div>
+                <p>Amstell can</p>
+                <div class="count">
+                    <p>Price: 15 EGP</p>
+                    <div class="countbuttons">
+                        <button type="submit" id="adec">-</button>
+                        <p id="ac">0</p>
+                        <button type="submit" id="ainc">+</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="disp">
+                        <p>Total:</p>
+                        <p id="amstellprice">0</p>
+                        <p>EGP</p>
+                    </div>
+                </div>
+                <p></p>
+            </div>
+            <div class="frame" id="sevenup">
+                <div><img src="res\sevenup-removebg-preview.png" alt="Sevenup">
+                </div>
+                <p>Sevenup can</p>
+                <div class="count">
+                    <p>Price: 10 EGP</p>
+                    <div class="countbuttons">
+                        <button type="submit" id="sdec">-</button>
+                        <p id="sc">0</p>
+                        <button type="submit" id="sinc">+</button>
+                    </div>
+                </div>
+                <div>
+                    <div class="disp">
+                        <p>Total:</p>
+                        <p id="sevenupprice">0</p>
+                        <p>EGP</p>
+                    </div>
+                </div>
+                <p></p>
+            </div>
+        </div>
+        
+        <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="Main.js"></script>
+    </body>
+</html>
